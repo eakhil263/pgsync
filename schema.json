@@ -1,0 +1,25 @@
+[
+    {
+        "database": "S4_POC",
+        "index": "buses_data_index",
+		"mapping": {
+			   "bus_number": {
+				   "type": "search_as_you_type"
+			   },
+			   "bus_name": {
+				   "type": "search_as_you_type"
+			   },
+			   "scenario_id": {
+				   "type": "keyword"
+			   }		   
+	},
+        "nodes": {           
+		"table": "buses_data",
+		"columns": [
+                          "bus_number",
+			  "bus_name",
+			  "scenario_id"
+                           ]		
+        }
+    }
+]
