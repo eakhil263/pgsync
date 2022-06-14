@@ -2,6 +2,6 @@
 
 """Top-level package for PGSync."""
 
-__author__ = "Tolu Aina"
-__email__ = "toluaina@hotmail.com"
+__author__ = "eakhil"
+__email__ = "eakhil263@gmail.com"
 __version__ = "2.2.1"
